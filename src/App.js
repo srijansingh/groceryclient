@@ -1,6 +1,6 @@
 import React from 'react';
 import Google from "./asset/google.png";
-import About from "./asset/category1.jpg";
+import About from "./asset/icons/supermarket.png";
 import Cat1 from "./asset/category1.jpg";
 import Cat2 from "./asset/category2.jpg";
 import Cat3 from "./asset/category3.jpg";
@@ -13,6 +13,17 @@ import mockup2 from "./asset/mockups/grocery2.png";
 import mockup3 from "./asset/mockups/grocery3.png";
 import mockup4 from "./asset/mockups/grocery4.png";
 import mockup5 from "./asset/mockups/grocery5.png";
+import Feature from "./asset/mockups/features.jpeg";
+
+import Flour from "./asset/icons/flour.png";
+import Grocery from "./asset/icons/grocery.png";
+import Money from "./asset/icons/money.png";
+import Shop from "./asset/icons/shop.png";
+import Dairy from "./asset/icons/dairy.png";
+import Truck from "./asset/icons/truck.png";
+import Phone from "./asset/icons/phone.png";
+import Rupee from "./asset/icons/rupee.png";
+import Return from "./asset/icons/return.png";
 import './App.css';
 
 function App() {
@@ -56,13 +67,16 @@ function App() {
 
         <div className="about-content">
           <div className="about-image">
-              <img src={About} />
+              <img src={About}  />
           </div>
 
           <div className="about-text">
           
             <span>
-            <div className="about-head">About Us</div>
+            <div className="about-head">
+            About Us
+            
+            </div>
              <p> Our dholpur share grocery app brings to you thousand of products at great prices and deals. Shop on the dholpur share app for the latest grocery products.</p>
              <p> Get groceries delievered safely with super savings on every order on dholpur share, save more with dholur share get guaranteed lowest prices on all your supermarket shopping; home deliverey in dholpur.</p>
               <p>Dholpur share is your low price online store where you get the latest products from patanjali, ashirwad, saffola, fortune, amul, pepsi, colgate, surf excel, maggie, vim, haldiram amongst other leading brands.</p>
@@ -107,6 +121,79 @@ function App() {
         </div>
       </div>
 
+      
+
+      <div className="features">
+        <div className="features-grid">
+
+          <div className="features-item">
+
+            <div className="features-card">
+              <div className="features-logo">
+                  <img src={Grocery} />
+              </div>
+              <div className="features-name">
+                <span className="features-head">Fresh Grocery</span>
+              </div>
+            </div>
+
+            <div className="features-card">
+              <div className="features-logo">
+                  <img src={Dairy} />
+              </div>
+              <div className="features-name">
+                <span className="features-head">Dairy Product</span>
+              </div>
+            </div>
+
+            <div className="features-card">
+              <div className="features-logo">
+                  <img src={Flour} />
+              </div>
+              <div className="features-name">
+                <span className="features-head">Grain Product</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div className="features-item">
+            <img src={mockup1} />
+          </div>
+
+          <div className="features-item">
+
+            <div className="features-card">
+              <div className="features-logo">
+                  <img src={Money} />
+              </div>
+              <div className="features-name">
+                <span className="features-head">In Budget</span>
+              </div>
+            </div>
+
+            <div className="features-card">
+              <div className="features-logo">
+                  <img src={Shop} />
+              </div>
+              <div className="features-name">
+                <span className="features-head">Secure Shopping</span>
+              </div>
+            </div>
+
+            <div className="features-card">
+              <div className="features-logo">
+                  <img src={Truck} />
+              </div>
+              <div className="features-name">
+                <span className="features-head">Home Delivery</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
       <div className="mockups">
         <div className="mockup-grid">
           <div className="mockup-item">
@@ -126,6 +213,82 @@ function App() {
           </div>
         </div>
       </div>
+
+
+      <div className="footer">
+              <div className="footer-grid">
+
+                <div className="footer-card">
+                  <div className="footer-logo">
+                      <img src={Truck} />
+                  </div>
+                  <div className="footer-name">
+                    <span className="footer-head">Free Shipping</span>
+                  </div>
+                </div>
+
+                <div className="footer-card">
+                  <div className="footer-logo">
+                      <img src={Phone} />
+                  </div>
+                  <div className="footer-name">
+                    <span className="footer-head">Need Help Call 8707849506</span>
+                  </div>
+                </div>
+
+                <div className="footer-card">
+                  <div className="footer-logo">
+                      <img src={Rupee} />
+                  </div>
+                  <div className="footer-name">
+                    <span className="footer-head">Money Back Gaurantee</span>
+                  </div>
+                </div>
+
+                <div className="footer-card">
+                  <div className="footer-logo">
+                      <img src={Return} />
+                  </div>
+                  <div className="footer-name">
+                    <span className="footer-head">7 Days Return Service</span>
+                  </div>
+                </div>
+
+              </div>
+
+              <div className="footer-info">
+                  <div className="footer-contact">
+                      <h1>Contact Us</h1>
+                      <div className="list">
+                        <span>336/3 Mangal Ashiyana Ramkunj colony Bari Road, Dholpur (Rajasthan)</span>
+                        <span>9461503768,  70144 69969</span>
+                        <span>Mon-Sun 8:00am to 12:00pm</span>
+                        
+                      </div>
+                  </div>
+                  <div className="footer-socialmedia">
+                      <h1>Join Us </h1>
+                      <div className="social-icon">
+                        <div class="icon-box">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon-box">
+                          <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon-box">
+                          <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon-box">
+                          <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        </div>
+                      </div>
+
+                  </div>
+              </div>
+              
+          </div>
+
+
 
     </div>
   );
