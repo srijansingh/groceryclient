@@ -30,6 +30,8 @@ header{
   
 }
 
+
+
 .company-logo{
   font-size:24px;
   font-weight:bold;
@@ -67,7 +69,7 @@ header{
   align-items: center;
   height:65vh;
   width:100%;
-  
+  text-align:center;
 
 }
 
@@ -110,6 +112,8 @@ header{
   flex-direction: row;
 }
 
+
+
 input{
   width:100%;
   padding:10px;
@@ -134,6 +138,8 @@ input{
   font-weight:bold;
   border-radius: 0 15px 5px 0;
 }
+
+
 
 .about{
   min-height:70vh;
@@ -193,23 +199,26 @@ input{
 .category{
   min-height:70vh;
   display:flex;
+  flex-direction: column;
   justify-content:space-around;
   align-items: center;
- 
   margin-bottom:50px;
 }
 
 .category-grid{
-  max-width: 900px;
+  background:red;
   display:grid;
   grid-template-columns: repeat(3,1fr);
 }
+
+
 
 .category-item{
   height:200px;
   width:300px;
   display:flex;
   flex-direction: column;
+  
   border:2px solid #8fc644;
   
 }
@@ -264,6 +273,8 @@ input{
   grid-template-columns: repeat(3,1fr);
  
 }
+
+
 
 .features-item{
   display:flex;
@@ -333,6 +344,7 @@ input{
 }
 
 
+
 .footer-card{
   width:200px;
   display:flex;
@@ -375,8 +387,83 @@ input{
 
 }
 
+@media  (max-width: 800px){
+
+  header .tab{
+      display:none;
+     
+  }
+  .intro{
+   
+    height:70vh;
+  }
+
+  .form{
+    width:320px;
+    padding:20px 0;
+    
+    display:flex;
+    flex-direction: row;
+  }
+
+  .desc{
+    max-width:320px;
+    
+  }
+
+  .brand{
+    font-size:3rem;
+    font-family:cursive;
+    font-weight:bold;
+    color:#8fc644;
+  }
+
+  .about-content{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .category-grid{
+   
+    
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .features-grid{
+   
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+   
+  }
+
+  .mockup-grid{
+    /* max-width: 900px; */
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .footer-grid{
+    flex-direction:column;
+    justify-content:space-around;
+    min-height:400px;
+    /* padding:0 20px; */
+  
+  }
+
+  .footer-info{
+    width:100%;
+    height:500px;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+  
+  }
+  
+}
+
 .footer-contact{
-  height:100%;
+  height:250px;
   width:100%;
   background:black;
   display:flex;
@@ -386,7 +473,7 @@ input{
 }
 
 .footer-socialmedia{
-  height:100%;
+  height:250px;
   width:100%;
   background:#1A1919;
   display:flex;

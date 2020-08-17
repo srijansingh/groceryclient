@@ -13,7 +13,7 @@ import mockup2 from "./asset/mockups/grocery2.png";
 import mockup3 from "./asset/mockups/grocery3.png";
 import mockup4 from "./asset/mockups/grocery4.png";
 import mockup5 from "./asset/mockups/grocery5.png";
-import Feature from "./asset/mockups/features.jpeg";
+import Feature from "./asset/mockups/featuremock.png";
 
 import Flour from "./asset/icons/flour.png";
 import Grocery from "./asset/icons/grocery.png";
@@ -158,7 +158,7 @@ function App() {
           </div>
 
           <div className="features-item">
-            <img src={mockup1} />
+            <img height="450" src={Feature} />
           </div>
 
           <div className="features-item">
