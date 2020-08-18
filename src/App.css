@@ -517,11 +517,14 @@ input{
   justify-content:space-around;
   align-items:center;
   border-radius:50%;
-  background:#6cf644;
+  background:#8cf644;
+  cursor: pointer;
   
 
 }
-
+.icon-box a{
+  text-decoration:none;
+}
 .icon-box i{
   color:white;
   font-size:24px;

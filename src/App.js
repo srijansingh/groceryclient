@@ -232,7 +232,7 @@ function App() {
                       <img src={Phone} />
                   </div>
                   <div className="footer-name">
-                    <span className="footer-head">Need Help Call 8707849506</span>
+                    <span className="footer-head">Need Help Call 9461503768</span>
                   </div>
                 </div>
 
@@ -261,7 +261,7 @@ function App() {
                       <h1>Contact Us</h1>
                       <div className="list">
                         <span>336/3 Mangal Ashiyana Ramkunj colony Bari Road, Dholpur (Rajasthan)</span>
-                        <span>9461503768,  70144 69969</span>
+                        <span>22,  70144 69969</span>
                         <span>Mon-Sun 8:00am to 12:00pm</span>
                         
                       </div>
@@ -270,16 +270,16 @@ function App() {
                       <h1>Join Us </h1>
                       <div className="social-icon">
                         <div class="icon-box">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                           <a href="https://www.facebook.com/dholpurshare/" target="_blank"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
                         </div>
                         <div class="icon-box">
-                          <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <a href="https://www.instagram.com/dholpurshare?r=nametag" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                         </div>
                         <div class="icon-box">
-                          <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <a href="https://twitter.com/dholpurshare?s=09" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         </div>
                         <div class="icon-box">
-                          <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        <a href="https://www.youtube.com/channel/UCxiwM0jksurWL9m2zneptsQ" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
                         </div>
                       </div>
 
