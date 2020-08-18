@@ -261,7 +261,7 @@ function App() {
                       <h1>Contact Us</h1>
                       <div className="list">
                         <span>336/3 Mangal Ashiyana Ramkunj colony Bari Road, Dholpur (Rajasthan)</span>
-                        <span>22,  70144 69969</span>
+                        <span>9461503768,  70144 69969</span>
                         <span>Mon-Sun 8:00am to 12:00pm</span>
                         
                       </div>
