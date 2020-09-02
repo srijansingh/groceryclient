@@ -52,10 +52,10 @@ function App() {
           </div>
           
           <div className="intro-form">
-            <img src={Google} height="100px"/>
-            <div className="form">
+           <a style={{textDecoration:'none'}} href="https://play.google.com/store/apps/details?id=com.techronx.dholpurshare"> <img src={Google} height="100px"/></a>
+            {/* <div className="form">
               <input type="number" placeholder="Mobile Number" /><button>Get Link</button>
-            </div>
+            </div> */}
           </div>
 
         </div>
@@ -90,7 +90,7 @@ function App() {
 
           <div className="category-item">
             <img src={Cat1} title="Pulses" />
-            <span className="category-name">Pulses</span>
+            <span className="category-name">Fruits</span>
           </div>
 
           <div className="category-item">
@@ -100,7 +100,7 @@ function App() {
 
           <div className="category-item">
             <img src={Cat3} title="Choclates" />
-            <span className="category-name">Grocery</span>
+            <span className="category-name">Cookies</span>
           </div>
 
           <div className="category-item">
