@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e6306054.chunk.css",
+    "main.js": "/static/js/main.abf9f04a.chunk.js",
+    "main.js.map": "/static/js/main.abf9f04a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
+    "static/js/2.fce5fe14.chunk.js": "/static/js/2.fce5fe14.chunk.js",
+    "static/js/2.fce5fe14.chunk.js.map": "/static/js/2.fce5fe14.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e954efe1382500924ce6f892fb6d8030.js": "/precache-manifest.e954efe1382500924ce6f892fb6d8030.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e6306054.chunk.css.map": "/static/css/main.e6306054.chunk.css.map",
+    "static/js/2.fce5fe14.chunk.js.LICENSE.txt": "/static/js/2.fce5fe14.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/background.51186ac7.jpg",
+    "static/media/category1.jpg": "/static/media/category1.e611c9d2.jpg",
+    "static/media/category2.jpg": "/static/media/category2.997593ad.jpg",
+    "static/media/category3.jpg": "/static/media/category3.997593ad.jpg",
+    "static/media/category4.jpg": "/static/media/category4.e611c9d2.jpg",
+    "static/media/category5.jpg": "/static/media/category5.a0e80bfb.jpg",
+    "static/media/category6.jpg": "/static/media/category6.e3f16d1d.jpg",
+    "static/media/featuremock.png": "/static/media/featuremock.906db9fd.png",
+    "static/media/google.png": "/static/media/google.db9b21a1.png",
+    "static/media/grocery1.png": "/static/media/grocery1.dfcc24af.png",
+    "static/media/grocery2.png": "/static/media/grocery2.825e2353.png",
+    "static/media/grocery3.png": "/static/media/grocery3.72e39b5b.png",
+    "static/media/grocery4.png": "/static/media/grocery4.8b855912.png",
+    "static/media/grocery5.png": "/static/media/grocery5.a20c6e0c.png",
+    "static/media/money.png": "/static/media/money.ba1d6d80.png",
+    "static/media/return.png": "/static/media/return.27987c0e.png",
+    "static/media/supermarket.png": "/static/media/supermarket.16476283.png",
+    "static/media/truck.png": "/static/media/truck.b877ea85.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09b85ec0.js",
+    "static/js/2.fce5fe14.chunk.js",
+    "static/css/main.e6306054.chunk.css",
+    "static/js/main.abf9f04a.chunk.js"
+  ]
+}
